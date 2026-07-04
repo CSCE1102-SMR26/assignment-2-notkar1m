@@ -13,7 +13,20 @@
   <property name="windowTitle">
    <string>client</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="messagelineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sendButton">
+      <property name="text">
+       <string>SEND</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
